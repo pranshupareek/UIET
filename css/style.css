@@ -1,0 +1,47 @@
+.jumbotron {
+    padding:40px 20px 40px 20px;
+    margin:0px auto;
+    background: #212121a6 ;
+    color:floralwhite;
+}
+body{
+    padding:0px 0px 0px 0px;
+    z-index:0;
+    background-color: #121212; 
+    margin-top: 55px;
+}
+.navbar-dark {
+    background-color: #000000;
+}
+footer{
+    color: floralwhite;
+    background: #1e1e1e;
+}
+.carousel-item {
+    height: 70vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.btn-primary,
+.btn-primary:focus {
+    background-color: #000000;
+    border-color: #000000;
+}
+.btn-primary:hover{
+    background-color: #212121;
+    border-color: #000000;
+
+}
+.btn-secondary,
+.btn-secondary:focus {
+    background-color: #f76038;
+    border-color: #f76038;
+}
+.btn-secondary:hover{
+    background-color: #f76138a6;
+    border-color: #f76038a0;
+}
