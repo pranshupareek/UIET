@@ -8,12 +8,13 @@ body{
     padding:0px 0px 0px 0px;
     z-index:0;
     background-color: #121212; 
+    color: floralwhite;
     margin-top: 55px;
 }
 .navbar-dark {
     background-color: #000000;
 }
-footer{
+.footer{
     color: floralwhite;
     background: #1e1e1e;
 }
@@ -60,7 +61,7 @@ footer{
     color: floralwhite;
 }
 .mybg{
-    background-color: #7e2626
+    background-color: #212121
 }
 .news-updates {
     padding: 5rem 0; }
@@ -99,7 +100,7 @@ footer{
       .news-updates .post-entry-big .img-link img {
         z-index: 1; }
       .news-updates .post-entry-big .img-link:hover:before {
-        opacity: .6;
+        opacity: 0.1;
         visibility: visible; }
       .news-updates .post-entry-big .img-link:hover img {
         -webkit-transform: scale(1.05);
