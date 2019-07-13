@@ -43,5 +43,91 @@ footer{
 }
 .btn-secondary:hover{
     background-color: #f76138a6;
-    border-color: #f76038a0;
+    border-color: #f76038a6;
 }
+.breadcrumb{
+    background-color: #212121;
+}
+.modal-header{
+    background-color: #000000;
+    color: floralwhite;
+}
+.modal-header .close {
+    color: floralwhite; }
+
+.modal-body{
+    background-color: #212121;
+    color: floralwhite;
+}
+.mybg{
+    background-color: #7e2626
+}
+.news-updates {
+    padding: 5rem 0; }
+    .news-updates .section-heading {
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 40px; }
+      .news-updates .section-heading h2 {
+        margin-bottom: 0;
+        line-height: 0; }
+      .news-updates .section-heading a {
+        font-size: 16px; }
+    .news-updates .post-entry-big .img-link {
+      position: relative;
+      display: inline-block;
+      margin-bottom: 30px;
+      overflow: hidden; }
+      .news-updates .post-entry-big .img-link img {
+        -webkit-transition: .3s all ease;
+        -o-transition: .3s all ease;
+        transition: .3s all ease; }
+      .news-updates .post-entry-big .img-link:before {
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        position: absolute;
+        content: "";
+        background: #000;
+        opacity: 0;
+        z-index: 2;
+        visibility: hidden;
+        -webkit-transition: .3s all ease;
+        -o-transition: .3s all ease;
+        transition: .3s all ease; }
+      .news-updates .post-entry-big .img-link img {
+        z-index: 1; }
+      .news-updates .post-entry-big .img-link:hover:before {
+        opacity: .6;
+        visibility: visible; }
+      .news-updates .post-entry-big .img-link:hover img {
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05); }
+    .news-updates .post-entry-big .post-content .post-meta a {
+      display: inline-block;
+      font-size: 13px;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: floralwhite; }
+    .news-updates .post-entry-big .post-content .post-heading {
+      line-height: .9; }
+      .news-updates .post-entry-big .post-content .post-heading a {
+        font-size: 18px;
+        font-weight: bold;
+        color: #f76038; }
+        .news-updates .post-entry-big .post-content .post-heading a:hover {
+          color: #ffe001; }
+    .news-updates .post-entry-big.horizontal .img-link {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 90px;
+      flex: 0 0 90px; }
+
+
+
+
+a.mylink:link { color:#f76038; text-decoration:none; font-weight:normal; }
+a.mylink:visited { color: #f76038; text-decoration:none; font-weight:normal; }
+a.mylink:hover { color: #f76038; text-decoration:underline; font-weight:normal; }
+a.mylink:active { color: #f76038; text-decoration:none; font-weight:normal; }
