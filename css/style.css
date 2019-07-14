@@ -63,6 +63,9 @@ body{
 .mybg{
     background-color: #212121
 }
+.mybg2{
+  background-color: #000;
+}
 .news-updates {
     padding: 5rem 0; }
     .news-updates .section-heading {
@@ -126,7 +129,13 @@ body{
       flex: 0 0 90px; }
 
 
-
+      hr { display: block; height: 2px;
+        border: 0; border-top: 2px solid #121212;
+        margin: 1em 0; padding: 0; }
+  
+.text-uiet{
+  color: #f76038;
+}        
 
 a.mylink:link { color:#f76038; text-decoration:none; font-weight:normal; }
 a.mylink:visited { color: #f76038; text-decoration:none; font-weight:normal; }
